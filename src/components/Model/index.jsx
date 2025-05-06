@@ -25,7 +25,7 @@ function Model({ url }) {
         // Apply material and transform
         object.traverse(child => {
             if (child.isMesh) {
-                child.material = new THREE.MeshStandardMaterial({ color: 0x888888 });
+                child.material = new THREE.MeshStandardMaterial({ color: 0xffffff });
             }
         });
         object.position.sub(center)

@@ -1,0 +1,32 @@
+[
+    {
+        "model_ID": "000321409",
+        "GT": "0",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/abc_00806605.obj",
+            "NDC": "/assets/data/first/axe13.obj",
+            "NMC_Lite": "/assets/data/first/axe5.obj"
+        }
+    },
+    {
+        "model_ID": "000432520019",
+        "GT": "0",
+        "models": {
+            "sharpVox": "/assets/data/second/bell_pepper0.obj",
+            "NMC": "/assets/data/second/bird.obj",
+            "NDC": "/assets/data/second/bluewhale.obj",
+            "NMC_Lite": "/assets/data/second/bulbauser.obj"
+        }
+    },
+    {
+        "model_ID": "50300209",
+        "GT": "0",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/3d_bird.obj",
+            "NDC": "/assets/data/first/3d_bird.obj",
+            "NMC_Lite": "/assets/data/first/3d_bird.obj"
+        }
+    }
+]
