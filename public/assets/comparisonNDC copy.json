@@ -1,0 +1,342 @@
+[
+    {
+        "model_ID": "00000009",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/abc_00806605.obj",
+            "NDC": "/assets/data/first/axe13.obj",
+            "NMC_Lite": "/assets/data/first/axe5.obj"
+        }
+    },
+    {
+        "model_ID": "134000019",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/second/bell_pepper0.obj",
+            "NMC": "/assets/data/second/bird.obj",
+            "NDC": "/assets/data/second/bluewhale.obj",
+            "NMC_Lite": "/assets/data/second/bulbauser.obj"
+        }
+    },
+    {
+        "model_ID": "00000209",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/3d_bird.obj",
+            "NDC": "/assets/data/first/3d_bird.obj",
+            "NMC_Lite": "/assets/data/first/3d_bird.obj"
+        }
+    },
+    {
+        "model_ID": "71347",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/abc_00806605.obj",
+            "NDC": "/assets/data/first/axe13.obj",
+            "NMC_Lite": "/assets/data/first/axe5.obj"
+        }
+    },
+    {
+        "model_ID": "fdas643",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/second/bell_pepper0.obj",
+            "NMC": "/assets/data/second/bird.obj",
+            "NDC": "/assets/data/second/bluewhale.obj",
+            "NMC_Lite": "/assets/data/second/bulbauser.obj"
+        }
+    },
+    {
+        "model_ID": "y43gasdgas",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/3d_bird.obj",
+            "NDC": "/assets/data/first/3d_bird.obj",
+            "NMC_Lite": "/assets/data/first/3d_bird.obj"
+        }
+    },
+    {
+        "model_ID": "643tgerdg",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/abc_00806605.obj",
+            "NDC": "/assets/data/first/axe13.obj",
+            "NMC_Lite": "/assets/data/first/axe5.obj"
+        }
+    },
+    {
+        "model_ID": "00000019",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/second/bell_pepper0.obj",
+            "NMC": "/assets/data/second/bird.obj",
+            "NDC": "/assets/data/second/bluewhale.obj",
+            "NMC_Lite": "/assets/data/second/bulbauser.obj"
+        }
+    },
+    {
+        "model_ID": "ry45",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/3d_bird.obj",
+            "NDC": "/assets/data/first/3d_bird.obj",
+            "NMC_Lite": "/assets/data/first/3d_bird.obj"
+        }
+    },
+    {
+        "model_ID": "854hyb",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/abc_00806605.obj",
+            "NDC": "/assets/data/first/axe13.obj",
+            "NMC_Lite": "/assets/data/first/axe5.obj"
+        }
+    },
+    {
+        "model_ID": "7245gfd",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/second/bell_pepper0.obj",
+            "NMC": "/assets/data/second/bird.obj",
+            "NDC": "/assets/data/second/bluewhale.obj",
+            "NMC_Lite": "/assets/data/second/bulbauser.obj"
+        }
+    },
+    {
+        "model_ID": "575hs",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/3d_bird.obj",
+            "NDC": "/assets/data/first/3d_bird.obj",
+            "NMC_Lite": "/assets/data/first/3d_bird.obj"
+        }
+    },
+    {
+        "model_ID": "ry53ger",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/abc_00806605.obj",
+            "NDC": "/assets/data/first/axe13.obj",
+            "NMC_Lite": "/assets/data/first/axe5.obj"
+        }
+    },
+    {
+        "model_ID": "k769",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/second/bell_pepper0.obj",
+            "NMC": "/assets/data/second/bird.obj",
+            "NDC": "/assets/data/second/bluewhale.obj",
+            "NMC_Lite": "/assets/data/second/bulbauser.obj"
+        }
+    },
+    {
+        "model_ID": "zdsg5",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/3d_bird.obj",
+            "NDC": "/assets/data/first/3d_bird.obj",
+            "NMC_Lite": "/assets/data/first/3d_bird.obj"
+        }
+    },
+    {
+        "model_ID": "83htrh",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/abc_00806605.obj",
+            "NDC": "/assets/data/first/axe13.obj",
+            "NMC_Lite": "/assets/data/first/axe5.obj"
+        }
+    },
+    {
+        "model_ID": "h5hsddrh",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/second/bell_pepper0.obj",
+            "NMC": "/assets/data/second/bird.obj",
+            "NDC": "/assets/data/second/bluewhale.obj",
+            "NMC_Lite": "/assets/data/second/bulbauser.obj"
+        }
+    },
+    {
+        "model_ID": "5u5634yhr",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/3d_bird.obj",
+            "NDC": "/assets/data/first/3d_bird.obj",
+            "NMC_Lite": "/assets/data/first/3d_bird.obj"
+        }
+    },
+    {
+        "model_ID": "dy453uynxdr",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/abc_00806605.obj",
+            "NDC": "/assets/data/first/axe13.obj",
+            "NMC_Lite": "/assets/data/first/axe5.obj"
+        }
+    },
+    {
+        "model_ID": "jyetyi67",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/second/bell_pepper0.obj",
+            "NMC": "/assets/data/second/bird.obj",
+            "NDC": "/assets/data/second/bluewhale.obj",
+            "NMC_Lite": "/assets/data/second/bulbauser.obj"
+        }
+    },
+    {
+        "model_ID": "o78odtj",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/3d_bird.obj",
+            "NDC": "/assets/data/first/3d_bird.obj",
+            "NMC_Lite": "/assets/data/first/3d_bird.obj"
+        }
+    },
+    {
+        "model_ID": "mhmsrtjrt",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/abc_00806605.obj",
+            "NDC": "/assets/data/first/axe13.obj",
+            "NMC_Lite": "/assets/data/first/axe5.obj"
+        }
+    },
+    {
+        "model_ID": "tyh4ntr",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/second/bell_pepper0.obj",
+            "NMC": "/assets/data/second/bird.obj",
+            "NDC": "/assets/data/second/bluewhale.obj",
+            "NMC_Lite": "/assets/data/second/bulbauser.obj"
+        }
+    },
+    {
+        "model_ID": "h4tjht",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/3d_bird.obj",
+            "NDC": "/assets/data/first/3d_bird.obj",
+            "NMC_Lite": "/assets/data/first/3d_bird.obj"
+        }
+    },
+    {
+        "model_ID": "h45h6tjrs",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/abc_00806605.obj",
+            "NDC": "/assets/data/first/axe13.obj",
+            "NMC_Lite": "/assets/data/first/axe5.obj"
+        }
+    },
+    {
+        "model_ID": "u543jhsh",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/second/bell_pepper0.obj",
+            "NMC": "/assets/data/second/bird.obj",
+            "NDC": "/assets/data/second/bluewhale.obj",
+            "NMC_Lite": "/assets/data/second/bulbauser.obj"
+        }
+    },
+    {
+        "model_ID": "u5htsdhh",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/3d_bird.obj",
+            "NDC": "/assets/data/first/3d_bird.obj",
+            "NMC_Lite": "/assets/data/first/3d_bird.obj"
+        }
+    },
+    {
+        "model_ID": "h45hser3",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/abc_00806605.obj",
+            "NDC": "/assets/data/first/axe13.obj",
+            "NMC_Lite": "/assets/data/first/axe5.obj"
+        }
+    },
+    {
+        "model_ID": "h5usdfhzdfrh",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/second/bell_pepper0.obj",
+            "NMC": "/assets/data/second/bird.obj",
+            "NDC": "/assets/data/second/bluewhale.obj",
+            "NMC_Lite": "/assets/data/second/bulbauser.obj"
+        }
+    },
+    {
+        "model_ID": "tui6tndth",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/3d_bird.obj",
+            "NDC": "/assets/data/first/3d_bird.obj",
+            "NMC_Lite": "/assets/data/first/3d_bird.obj"
+        }
+    },
+    {
+        "model_ID": "tjrwr6ijzr",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/abc_00806605.obj",
+            "NDC": "/assets/data/first/axe13.obj",
+            "NMC_Lite": "/assets/data/first/axe5.obj"
+        }
+    },
+    {
+        "model_ID": "h54usrtjhtr",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/second/bell_pepper0.obj",
+            "NMC": "/assets/data/second/bird.obj",
+            "NDC": "/assets/data/second/bluewhale.obj",
+            "NMC_Lite": "/assets/data/second/bulbauser.obj"
+        }
+    },
+    {
+        "model_ID": "u5hdrhrdzh",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/3d_bird.obj",
+            "NDC": "/assets/data/first/3d_bird.obj",
+            "NMC_Lite": "/assets/data/first/3d_bird.obj"
+        }
+    },
+    {
+        "model_ID": "u5hsfdrhrdzh",
+        "GT": "/assets/data/first/00021208.off",
+        "models": {
+            "sharpVox": "/assets/data/first/3d_bird.obj",
+            "NMC": "/assets/data/first/3d_bird.obj",
+            "NDC": "/assets/data/first/3d_bird.obj",
+            "NMC_Lite": "/assets/data/first/3d_bird.obj"
+        }
+    }
+]

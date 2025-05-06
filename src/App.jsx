@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import MeshViewer from './components/MeshViewer';
 import BriefIntroduction from './components/BriefIntroduction';
-import { Button, Divider, Form, Pagination, Progress, Radio, Result } from 'antd';
-import { rules } from 'eslint-plugin-react-refresh';
+import { Button, Divider, Form, message, Pagination, Progress, Radio, Result } from 'antd';
 import { SIZE } from './constants';
 import { useDispatch, useSelector } from 'react-redux';
 import { addAnswer, resetAnswers } from './redux/answerSlice';
@@ -197,10 +196,35 @@ function App() {
   const { currentPhase } = useSelector(state => state.status)
   console.log("currentPhase", currentPhase);
   const dispatch = useDispatch()
-  const handleSubmit = () => {
-    console.log(answers);
-    console.log(Object.keys(answers));
-    dispatch(moveToNextPhase())
+  const [messageApi, contextHolder] = message.useMessage();
+  const success = () => {
+    messageApi.open({
+      type: 'success',
+      content: 'Submit Successfully!',
+    });
+  };
+  const error = () => {
+    messageApi.open({
+      type: 'error',
+      content: 'Failed to Submit! Try again later',
+    });
+  }
+  const handleSubmit = async () => {
+    const form = new URLSearchParams();
+    form.append('answers', JSON.stringify(answers));
+
+    const resp = await fetch("https://script.google.com/macros/s/AKfycbzFfYmtQPr04iGEoCSJBLmdwxcZkgdfgRpPQDd5k1aFBVKFua8O3fylFxUuA4arM-kCMg/exec", {
+      method: 'POST',
+      body: form
+    });
+    const data = await resp.json();
+    if (data.result === 'ok') {
+      success();
+      dispatch(moveToNextPhase());
+    } else {
+      error();
+    }
+
   }
 
   const handleReFill = () => {
@@ -208,8 +232,9 @@ function App() {
     dispatch(restart())
   }
   return (
-    <div>
-      <BriefIntroduction numberOfComparison={numberOfComparison} numberOfModels={numberOfTotalModels} />
+    <div style={{ paddingBottom: 20 }}>
+      {contextHolder}
+      {(currentPhase !== "done" && currentPhase !== "submited") && <BriefIntroduction numberOfComparison={numberOfComparison} numberOfModels={numberOfTotalModels} />}
       {/* NDC */}
       {currentPhase === "NDC" && <>
         <MyDivider text={"1st comparison"} />
@@ -231,7 +256,7 @@ function App() {
           <ComparisonSection models={modelsNMCLite} currentComparedModel={"NMC_Lite"} />
         </div>
       </>}
-      {(currentPhase === "done" || currentPhase === "submited") && <>
+      {(currentPhase === "done" || currentPhase === "submited") && <div style={{}}>
         <Result
           status="success"
           title="Thanks for your answers!"
@@ -243,7 +268,7 @@ function App() {
             Fill one more
           </Button>]}
         />
-      </>}
+      </div>}
     </div>
   );
 }

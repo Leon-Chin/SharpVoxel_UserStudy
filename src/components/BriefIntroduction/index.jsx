@@ -1,3 +1,4 @@
+import { Button } from 'antd'
 import React from 'react'
 
 export default function BriefIntroduction({ numberOfComparison = 3, numberOfModels = 0 }) {
