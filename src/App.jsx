@@ -8,6 +8,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { addAnswer, resetAnswers } from './redux/answerSlice';
 import { SmileOutlined } from '@ant-design/icons';
 import { moveToNextPhase, restart } from './redux/statusSlice';
+import VoxelViewer from './components/VoxelViewer';
 
 const tableStyle = {
   borderCollapse: 'collapse',
@@ -45,7 +46,7 @@ const MyDivider = ({ text }) => <div style={{ padding: "0 30px" }}>
 </div>
 
 const TableRow = ({ item, currentComparedModel }) => {
-  const { model_ID, models } = item
+  const { model_ID, models, GT } = item
   const { answers } = useSelector(state => state.answers)
 
   const sharpVoxIsFirst = useMemo(() => Math.random() < 0.5, []);
@@ -54,7 +55,7 @@ const TableRow = ({ item, currentComparedModel }) => {
   return <tr key={model_ID}>
     {/* GT */}
     <td key={model_ID + "vox"} style={cellStyle}>
-      <MeshViewer file={models.sharpVox} />
+      <VoxelViewer file={GT} />
     </td>
 
     {/*  Comparison */}

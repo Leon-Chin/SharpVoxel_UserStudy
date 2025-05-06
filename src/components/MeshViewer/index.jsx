@@ -1,23 +1,17 @@
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
-import Model from '../Model';
 import { SIZE } from '../../constants';
 import { useEffect, useRef } from 'react';
+import Model from '../Model';
 
-function MeshViewer({ file }) {
+function VoxelViewer({ file }) {
     const glRef = useRef()
     useEffect(() => {
         return () => {
             const renderer = glRef.current
-            console.log("daozhele");
-
             if (renderer) {
                 renderer.forceContextLoss();
-
-                // 2. 清理 three.js 资源
                 renderer.dispose();
-
-                // 3. 避免悬挂引用
                 glRef.current = null;
             }
         }
@@ -39,4 +33,4 @@ function MeshViewer({ file }) {
     );
 }
 
-export default MeshViewer;  
+export default VoxelViewer;  

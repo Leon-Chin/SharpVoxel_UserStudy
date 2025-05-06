@@ -1,7 +1,7 @@
 [
     {
         "model_ID": "000321409",
-        "GT": "0",
+        "GT": "/assets/data/first/00021208.off",
         "models": {
             "sharpVox": "/assets/data/first/3d_bird.obj",
             "NMC": "/assets/data/first/abc_00806605.obj",
@@ -11,7 +11,7 @@
     },
     {
         "model_ID": "000432520019",
-        "GT": "0",
+        "GT": "/assets/data/first/00021208.off",
         "models": {
             "sharpVox": "/assets/data/second/bell_pepper0.obj",
             "NMC": "/assets/data/second/bird.obj",
@@ -21,7 +21,7 @@
     },
     {
         "model_ID": "50300209",
-        "GT": "0",
+        "GT": "/assets/data/first/00021208.off",
         "models": {
             "sharpVox": "/assets/data/first/3d_bird.obj",
             "NMC": "/assets/data/first/3d_bird.obj",
